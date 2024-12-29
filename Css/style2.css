@@ -1,0 +1,829 @@
+html
+{
+    font-size: 10px;   
+    
+}
+body
+{
+    background-color:#F7E7C9 ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+}
+
+/* Home *//* Home *//* Home */
+/* Home *//* Home *//* Home */
+/* Home *//* Home *//* Home */
+
+#home
+{
+    width: 85vmax; 
+    height: 28vmin;
+
+
+}
+header
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.Logo
+{   
+    width: 47%;
+    display: flex;
+    align-items: center;
+}
+.Logo img
+{
+    width: 20rem;
+    height:20rem ;
+}
+.Hometable
+{   
+    width: 53%;
+    font-size: 6.4rem;
+    font-family: 'Kantumruy Pro';
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+}
+.Hometable table
+{
+    display: flex;
+    justify-content: center;
+
+}
+.Hometable table,tbody
+{   
+    width: 100%;
+    height: 100%;
+}
+.Hometable tr
+{
+    display:flex;
+    width: 100%;
+    height: 100%;
+}
+.Hometable td
+{
+    display:flex;
+    width: 33.3%;
+    height:100%;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    
+}
+.Hometable td a
+{
+    display: flex;
+    color: #000000;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+.Illus
+{
+    font-size: 5rem;
+    letter-spacing: -0.2rem;
+}
+.Hometable td:hover
+{
+    background-color: beige;
+    
+}
+
+@media (max-width: 1500px)
+{
+    .Hometable
+    {   
+        font-size: 5.4rem;
+    }
+
+    .Illus
+    {
+        font-size: 4rem;
+        letter-spacing: -0.2rem;
+    }   
+}
+@media (max-width: 1250px)
+{
+    html
+    {
+        font-size: 8px;
+    }
+}
+@media (max-width: 500px)
+{
+        html
+    {
+        font-size: 6px;
+    }
+
+}
+
+#Homecontent
+{
+    width: 100%;
+    height: 78vmin;
+    background-image: url("../Picture/ID3.png"), url(../Picture/Pad.png),linear-gradient(to bottom,#F7E7C9,#F7E7C9 29%,#F0E8DA 29%,#f0e8da 93.6%,#F7E7C9 93.6% );
+    background-size: 30%, 50%,100%;
+    background-repeat: no-repeat;
+    background-position: 7.5vmax 10vmin, 45.5vmax 5.3vmin, left ;
+}
+
+/* Graphic *//* Graphic *//* Graphic */
+/* Graphic *//* Graphic *//* Graphic */
+/* Graphic *//* Graphic *//* Graphic */
+
+#Graphic
+{
+    display: flex;
+    flex-direction: column;
+    width: 85vmax; 
+    justify-content: center;
+    align-items: center;
+
+}
+#GraphicTitle
+{
+    width: 85vmax; 
+    height: 100vmin;
+}
+
+
+.title
+{
+    display: flex;
+    width: 100%;
+    height: 33%;
+    justify-content: center;
+}
+h1
+{
+    display: flex;
+    font-size: 6.4rem;
+    font-family: 'Poetsen One';
+    font-weight: 600;
+    align-items: center;
+
+}
+.arrowdown
+{
+    display: flex;
+    height: 33%;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+.arrow
+{
+    width: 10rem;
+    height: 10rem;
+}
+
+#GraphicContent
+{
+    width: 85vmax; 
+
+
+}
+
+.Gps
+{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100vmin;
+}
+
+.Gptext
+{
+    display: flex;
+    flex-direction: column;
+    width: 48%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.Gppull
+{
+    display: flex;
+    align-items: center;
+    height: 24vmax;
+}
+.Gpname
+{
+    border-left: #9c7d5165 3px solid;
+    height: 8.5rem;
+}
+
+h2
+{
+    font-size: 3.2rem;
+    font-family: 'Noto Sans HK';
+    font-weight: 700;
+    color: #9c7d51b2;
+    margin: 0;
+    margin-left: 1.2rem;
+
+}
+.Gpname h3
+{
+    font-size: 1.8rem;
+    font-family: 'Noto Sans HK';
+    font-weight: 500;
+    color: #9c7d51cc;
+    margin: 0;
+    margin-left: 1.2rem;
+    
+}
+h3
+{
+    font-size: 1.8rem;
+    font-family: 'Noto Sans HK';
+    font-weight: 500;
+    color: #9c7d51cc;
+    margin: 0;
+    
+}
+h4
+{
+    font-size: 1.3rem;
+    font-family: 'Kantumruy Pro';
+    font-weight: 500;
+    color: #9c7d51b2;
+    margin: 0;
+    margin-left: 1.2rem;
+}
+.Gptext p
+{
+    font-size: 1.3rem;
+    font-family: 'Noto Sans HK';
+    font-weight: 500;
+    color: #9c7d517a;
+    margin: 0;
+
+}
+
+.Gp1
+{
+    display: flex;
+    flex-direction: column;
+    width: 52%;
+    height: 31.2vmax;
+    align-items: flex-end;
+    background-attachment: scroll;
+    overflow-y: scroll;
+    padding-right: 1.2rem;
+    
+
+    &::-webkit-scrollbar
+    {
+      width: 12px;
+      background-color: transparent;
+    }
+    &::-webkit-scrollbar-thumb
+    {
+      background-color: #9c7d5117;
+      border-radius: 10px;
+    }
+}
+
+.Gp1 img
+{
+    max-width: 100%;
+    box-shadow: 0.3rem 0.3rem 0.7rem rgba(0, 0, 0, 0.26);
+}
+
+.Gps2
+{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 155vmin;
+}
+
+.Gp2
+{
+    display: flex;
+    flex-direction: column;
+    width: 52%;
+    height: 32.5vmax;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.Gp2 img
+{
+    max-width: 68%;
+    box-shadow: 0.3rem 0.3rem 0.7rem rgba(0, 0, 0, 0.26);
+}
+
+.Gptext2
+{
+    display: flex;
+    flex-direction: column;
+    width: 48%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.righth3
+{
+    font-size: 1.8rem;
+    font-family: 'Noto Sans HK';
+    font-weight: 500;
+    color: #9c7d51cc;
+    margin:0 0 0 1rem;
+}
+
+.Gp3h3
+{
+    margin-left: 4.8vmax;
+}
+
+.Gp4
+{
+    display: flex;
+    flex-direction: column;
+    width: 52%;
+    height: 31.2vmax;
+    align-items: flex-end;
+    background-attachment: scroll;
+    overflow-y: scroll;
+    padding-right: 1.2rem;
+    
+
+    &::-webkit-scrollbar
+    {
+      width: 12px;
+      background-color: transparent;
+    }
+    &::-webkit-scrollbar-thumb
+    {
+      background-color: #9c7d5117;
+      border-radius: 10px;
+    }
+}
+
+.Gp4 img
+{
+    max-width: 90%;
+    box-shadow: 0.3rem 0.3rem 0.7rem rgba(0, 0, 0, 0.26);
+}
+
+/* Web *//* Web *//* Web */
+/* Web *//* Web *//* Web */
+/* Web *//* Web *//* Web */
+
+#Web
+{
+    display: flex;
+    flex-direction: column;
+    width: 85vmax; 
+    justify-content: center;
+    align-items: center;
+
+}
+#WebTitle
+{
+    width: 85vmax; 
+    height: 100vmin;
+}
+.arrowup
+{
+    display: flex;
+    height: 33%;
+    justify-content: center;
+    align-items: self-start;
+}
+.top
+{
+    width: 10rem;
+    height: 10rem;
+}
+
+#Webcontent
+{
+    width: 100%;
+    height: 100vmin;
+    margin-top: 5vmin;
+}
+.Webview
+{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    height: 70%;
+}
+.Webviewpull
+{
+    width: 20%;
+}
+.Webviewleft
+{
+    width: 10%;
+    border-top: 2px solid #c3aa8560 ;
+    border-left: 2px solid #C3AA8560 ;
+    border-bottom: 2px solid #C3AA8560 ;
+    box-shadow:inset 5px 5px 5px  #C3AA8527,inset 5px -5px 5px  #c3aa8527;
+}
+.Webviewcenter
+{
+    display: flex;
+    width: 60%;
+    height: 100%;
+    align-items: center;
+}
+.Webviewscroll
+{
+    
+    display: flex;
+    width: 100%;
+    height: 74%;
+    flex-direction: column;
+    align-items: flex-end;
+    box-shadow: 0px 4px 20px #0000001f ;
+    background-attachment: scroll;
+    overflow-y: scroll;
+
+    
+
+    &::-webkit-scrollbar
+    {
+      width: 12px;
+      background-color: transparent;
+    }
+    &::-webkit-scrollbar-thumb
+    {
+      background-color: #9c7d5117;
+      border-radius: 10px;
+    }
+}
+.Webviewscroll img
+{
+    max-width: 100%;
+}
+
+
+.Webviewright
+{
+    width: 10%;
+    border-top: 2px solid #c3aa8586 ;
+    border-right: 2px solid #C3AA8586 ;
+    border-bottom: 2px solid #C3AA8586 ;
+    box-shadow:inset -5px 5px 5px  #C3AA8527,inset -5px -5px 5px  #C3AA8527;
+}
+
+.Webtext
+{
+    display: flex;
+    height: 30%;
+    align-items: center;
+}
+.Webtextpull
+{
+    width: 15%;
+}
+
+/* Illustration *//* Illustration *//* Illustration */
+/* Illustration *//* Illustration *//* Illustration */
+/* Illustration *//* Illustration *//* Illustration */
+
+#Illustration
+{
+    display: flex;
+    flex-direction: column;
+    width: 85vmax; 
+    justify-content: center;
+    align-items: center;
+
+}
+.IllusTitle
+{
+    width: 85vmax; 
+    height: 100vmin;
+}
+
+
+#Illuscontent
+{
+    display: flex;
+    width: 100%;
+    height: 100vmin;
+    margin-top: 20vmin;
+}
+
+.Ayoleft
+{
+    display:flex;
+    flex-direction:column;
+    width: 40%;
+    justify-content: center;
+    align-items: center;
+}
+.Ayoup
+{   
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+
+}
+.Ayoup img
+{
+    max-width: 20.3rem;
+    border-radius: 13px;
+    box-shadow: 4px 4px 4px #0000001f;
+    margin-bottom: 1rem;
+}
+.Ayoh4  
+{
+    font-size: 1.4rem;
+    font-family: 'Noto Sans HK';
+    font-weight: 500;
+    color: #9c7d51bd;
+}
+.puller
+{
+    display: flex;
+    height: 40%;
+}
+.Ayotext
+{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.Ayopull
+{
+    width: 22%;
+}
+
+.Ayoright
+{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.Ayoview
+{
+    display: flex;
+    width: 80%;
+    height: 68%;
+    flex-direction: column;
+    align-items: flex-end;
+    box-shadow: 0px 4px 20px #0000001f ;
+    background-attachment: scroll;
+    background-color: #EEF0EB2B;
+    overflow-y: scroll;
+    border-radius: 32px;
+    padding-right: 2rem;
+
+    
+
+    &::-webkit-scrollbar
+    {
+      width: 12px;
+      background-color: transparent;
+    }
+    &::-webkit-scrollbar-thumb
+    {
+      background-color: #9c7d5117;
+      border-radius: 10px;
+    }
+}
+.Ayoviewpush
+{
+    height: 8%;
+}
+.Ayotable
+{
+    width: 98%;
+    max-height: 100%;
+
+
+}
+.Ayotable img
+{
+    max-width: 100%;
+
+}
+
+.QYleft
+{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    justify-content: center;
+    align-items: center;
+}
+.QYpull
+{
+    height: 15rem;
+}
+.QYtext
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 70%;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+.QYright
+{
+    display: flex;
+    width: 60%;
+    justify-content: center;
+    align-items: center;
+}
+.QYview
+{
+    display: flex;
+    width: 38vmax;
+    height: 32vmax;
+    /*
+    width: 70rem;
+    height: 61rem;
+    */
+    background-color: #FAF1DC;
+    box-shadow: 1px 1px 4px #00000008;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+.QY
+{
+    position: relative;
+    max-width: 120%;
+    top: -15rem;
+}
+
+/* About *//* About *//* About */
+/* About *//* About *//* About */
+/* About *//* About *//* About */
+
+#About
+{
+    display: flex;
+    flex-direction: column;
+    width: 85vmax; 
+    justify-content: center;
+    align-items: center;
+    margin-top: 20vmin;
+
+}
+#Aboutcontent
+{
+    display: flex;
+    width: 100%;
+    height: 70vmin;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.AboutTitle
+{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.Aboutleft
+{
+    display: flex;
+    width: 75%;
+    height: 30%;
+    justify-content: flex-end;
+    align-items: center;
+}
+.Aboutleft h2
+{
+    color: #000000;
+    font-family: 'Noto Sans HK';
+    font-weight: 500;
+    margin: 0;
+    white-space:nowrap;
+}
+.Email
+{
+    letter-spacing: 0.18rem;
+}
+.Aboutleft h3
+{
+    color: #000000;
+    font-family: 'Kantumruy Pro';
+    font-size: 2.2rem;
+    letter-spacing: -2%;
+    padding: 10px 0 10px 0;
+
+    
+}
+
+.Aboutbox1
+{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 20%;
+    justify-content: center;
+}
+.Aboutbox2
+{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+}
+.Aboutpull
+{
+    width: 8%;
+}
+
+.Aboutright
+{
+    display: flex;
+    width: 25%;
+    height: 40%;
+}
+
+.Aboutright img
+{
+    max-height: 100%;
+    border-radius: 6px;
+}
+
+/* footer *//* footer *//* footer */
+/* footer *//* footer *//* footer */
+/* footer *//* footer *//* footer */
+
+footer
+{
+    display: flex;
+    width: 85vmax;
+    height: 8vmin;
+}
+
+.footerleft
+{   
+    display: flex;
+    width: 80%;
+    height: 100%;
+    justify-content: flex-start;
+}
+.footerpull
+{
+    width: 12%;
+}
+.footerlink
+{
+    font-size: 3.8rem;
+    font-family: 'Kantumruy Pro';
+    font-weight: 600; 
+    color: #9c7d5170;
+    margin-right: 5rem;
+
+}
+.footerlink a
+{
+
+    color: #9c7d5170;
+    text-decoration: none;
+
+
+}
+
+.footerright
+{
+    display: flex;
+    width: 20%;
+    height: 100%;
+    justify-content: center;
+}
+
+.footerright img
+{
+    width: 100%;
+    height: 100%;
+}
+/*
+    font-size: 6.4rem;
+    font-family: 'Kantumruy Pro';
+    font-weight: 700; 
+ */
