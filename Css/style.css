@@ -129,7 +129,7 @@ header
 {
     width: 100%;
     height: 78vmin;
-    background-image: url("../Picture/ID3.png"), url(../Picture/Pad.png),linear-gradient(to bottom,#F7E7C9,#F7E7C9 29%,#F0E8DA 29%,#f0e8da 93.6%,#F7E7C9 93.6% );
+    background-image: url("../Picture/ID3.png"), url(../Picture/Pad2.png),linear-gradient(to bottom,#F7E7C9,#F7E7C9 29%,#F0E8DA 29%,#f0e8da 93.6%,#F7E7C9 93.6% );
     background-size: 30%, 50%,100%;
     background-repeat: no-repeat;
     background-position: 7.5vmax 10vmin, 45.5vmax 5.3vmin, left ;
